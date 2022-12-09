@@ -1,0 +1,41 @@
+<suite name="Batch Execution">
+	<test name="Ajax Results">
+		<classes>
+			<class name="testNG.AjaxControlling">
+				<methods>
+					<include name="f">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ParentLinks Results">
+		<classes>
+			<class name="testNG.ParentLinks">
+				<methods>
+					<include name="f">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name=" Results">
+		<classes>
+			<class name="testNG.WebTableHandling">
+				<methods>
+					<include name="f">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name=" Results">
+		<classes>
+			<class name="testNG.InformationCommands">
+				<methods>
+					<include name="f"></include>										
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

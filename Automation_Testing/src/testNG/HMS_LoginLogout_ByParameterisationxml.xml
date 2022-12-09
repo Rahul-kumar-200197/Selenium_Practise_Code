@@ -1,0 +1,41 @@
+<suite name="HMS_Login_Logout_Parameterisation">
+	<test name="f">
+		<classes>
+			<parameter name="username" value="admin"></parameter>
+			<parameter name="password" value="admin"></parameter>
+			<class name="testNG.HMS_Login_Logout_ByXML">
+				<method>
+					<include name="HMS_LoginLogout_XML">
+					</include>
+				</method>
+			</class>
+		</classes>
+	</test>
+	<test name="f">
+		<classes>
+			<parameter name="username" value="mahesh"></parameter>
+			<parameter name="password" value="mahesh"></parameter>
+			<class name="testNG.HMS_Login_Logout_ByXML">
+				<method>
+					<include name="HMS_LoginLogout_XML">
+					</include>
+				</method>
+			</class>
+		</classes>
+	</test>
+	<test name="f">
+		<classes>
+			<parameter name="username" value="admin"></parameter>
+			<parameter name="password" value="admin"></parameter>
+			<class name="testNG.HMS_Login_Logout_ByXML">
+				<method>
+					<include name="HMS_LoginLogout_XML">
+					</include>
+				</method>
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>

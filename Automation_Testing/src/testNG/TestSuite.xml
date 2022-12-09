@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HMS Suite">
+<test name="HMS Results"></test>
+<classes>
+<class name="testNG.HMS_Login_Logout_USE_XML">
+<method>
+<include name="verfiyLogin"></include>
+<include name="signOut"></include>
+</method>
+</class>
+</classes>
+</suite>
